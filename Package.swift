@@ -12,7 +12,7 @@ let package = Package(
             targets: ["AdmiralTabsSwiftUI"]),
     ],
     dependencies: [
-        .package(url: "git@github.com:admiral-team/AdmiralCore.git", .exact("0.0.1")),
+        .package(url: "git@github.com:admiral-team/AdmiralCore.git", .exact("0.0.2")),
         .package(url: "git@github.com:admiral-team/AdmiralTheme.git", .exact("0.0.1")),
     ],
     targets: [
