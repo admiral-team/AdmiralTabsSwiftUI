@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF5BA362AD6BB9E00E6628A /* AdmiralUTabsViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA352AD6BB9E00E6628A /* AdmiralUTabsViewerApp.swift */; };
+		FDF5BA3A2AD6BB9F00E6628A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF5BA392AD6BB9F00E6628A /* Assets.xcassets */; };
+		FDF5BA3D2AD6BB9F00E6628A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF5BA3C2AD6BB9F00E6628A /* Preview Assets.xcassets */; };
+		FDF5BA4B2AD6BCCD00E6628A /* AdmiralTabsSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FDF5BA4A2AD6BCCD00E6628A /* AdmiralTabsSwiftUI */; };
+		FDF5BA4E2AD6CE1800E6628A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA4D2AD6CE1800E6628A /* MainView.swift */; };
+		FDF5BA502AD6CFE600E6628A /* TabsSwiftUIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA4F2AD6CFE600E6628A /* TabsSwiftUIItem.swift */; };
+		FDF5BA692AD6D07700E6628A /* InfoSwiftUIViewScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA552AD6D07700E6628A /* InfoSwiftUIViewScheme.swift */; };
+		FDF5BA6A2AD6D07700E6628A /* InformerTabSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA562AD6D07700E6628A /* InformerTabSwiftUIView.swift */; };
+		FDF5BA6B2AD6D07700E6628A /* InfoSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA572AD6D07700E6628A /* InfoSwiftUIView.swift */; };
+		FDF5BA6C2AD6D07700E6628A /* TabsSwiftUIRowObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA582AD6D07700E6628A /* TabsSwiftUIRowObservable.swift */; };
+		FDF5BA6D2AD6D07700E6628A /* IconTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA5A2AD6D07700E6628A /* IconTabs.swift */; };
+		FDF5BA6E2AD6D07700E6628A /* UnderlineSliderTabSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA5C2AD6D07700E6628A /* UnderlineSliderTabSwiftUIView.swift */; };
+		FDF5BA6F2AD6D07700E6628A /* UnderlineCenterTabsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA5D2AD6D07700E6628A /* UnderlineCenterTabsSwiftUIView.swift */; };
+		FDF5BA702AD6D07700E6628A /* UnderlineTabsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA5E2AD6D07700E6628A /* UnderlineTabsUIView.swift */; };
+		FDF5BA712AD6D07700E6628A /* UnderlineTabsSwiftUIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA5F2AD6D07700E6628A /* UnderlineTabsSwiftUIItem.swift */; };
+		FDF5BA722AD6D07700E6628A /* OutlineSliderTabSwiftUITab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA612AD6D07700E6628A /* OutlineSliderTabSwiftUITab.swift */; };
+		FDF5BA732AD6D07700E6628A /* StandardTabSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA632AD6D07700E6628A /* StandardTabSwiftUIView.swift */; };
+		FDF5BA742AD6D07700E6628A /* LogoTabSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA652AD6D07700E6628A /* LogoTabSwiftUIView.swift */; };
+		FDF5BA762AD6D07700E6628A /* TabsSwiftUIRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA672AD6D07700E6628A /* TabsSwiftUIRow.swift */; };
+		FDF5BA792AD6D1B300E6628A /* SwiftUIContentViewScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA782AD6D1B300E6628A /* SwiftUIContentViewScheme.swift */; };
+		FDF5BA7B2AD6D1EA00E6628A /* NavigationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA7A2AD6D1EA00E6628A /* NavigationContentView.swift */; };
+		FDF5BA7D2AD6D21200E6628A /* NavigationContentViewScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA7C2AD6D21200E6628A /* NavigationContentViewScheme.swift */; };
+		FDF5BA812AD6D41200E6628A /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5BA802AD6D41200E6628A /* Assets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDF5BA322AD6BB9E00E6628A /* AdmiralUTabsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmiralUTabsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF5BA352AD6BB9E00E6628A /* AdmiralUTabsViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmiralUTabsViewerApp.swift; sourceTree = "<group>"; };
+		FDF5BA392AD6BB9F00E6628A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF5BA3C2AD6BB9F00E6628A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDF5BA472AD6BC8A00E6628A /* AdmiralTabsSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AdmiralTabsSwiftUI; path = ../..; sourceTree = "<group>"; };
+		FDF5BA4D2AD6CE1800E6628A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FDF5BA4F2AD6CFE600E6628A /* TabsSwiftUIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsSwiftUIItem.swift; sourceTree = "<group>"; };
+		FDF5BA552AD6D07700E6628A /* InfoSwiftUIViewScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoSwiftUIViewScheme.swift; sourceTree = "<group>"; };
+		FDF5BA562AD6D07700E6628A /* InformerTabSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformerTabSwiftUIView.swift; sourceTree = "<group>"; };
+		FDF5BA572AD6D07700E6628A /* InfoSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoSwiftUIView.swift; sourceTree = "<group>"; };
+		FDF5BA582AD6D07700E6628A /* TabsSwiftUIRowObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsSwiftUIRowObservable.swift; sourceTree = "<group>"; };
+		FDF5BA5A2AD6D07700E6628A /* IconTabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTabs.swift; sourceTree = "<group>"; };
+		FDF5BA5C2AD6D07700E6628A /* UnderlineSliderTabSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineSliderTabSwiftUIView.swift; sourceTree = "<group>"; };
+		FDF5BA5D2AD6D07700E6628A /* UnderlineCenterTabsSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineCenterTabsSwiftUIView.swift; sourceTree = "<group>"; };
+		FDF5BA5E2AD6D07700E6628A /* UnderlineTabsUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineTabsUIView.swift; sourceTree = "<group>"; };
+		FDF5BA5F2AD6D07700E6628A /* UnderlineTabsSwiftUIItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineTabsSwiftUIItem.swift; sourceTree = "<group>"; };
+		FDF5BA612AD6D07700E6628A /* OutlineSliderTabSwiftUITab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineSliderTabSwiftUITab.swift; sourceTree = "<group>"; };
+		FDF5BA632AD6D07700E6628A /* StandardTabSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardTabSwiftUIView.swift; sourceTree = "<group>"; };
+		FDF5BA652AD6D07700E6628A /* LogoTabSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoTabSwiftUIView.swift; sourceTree = "<group>"; };
+		FDF5BA672AD6D07700E6628A /* TabsSwiftUIRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsSwiftUIRow.swift; sourceTree = "<group>"; };
+		FDF5BA782AD6D1B300E6628A /* SwiftUIContentViewScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContentViewScheme.swift; sourceTree = "<group>"; };
+		FDF5BA7A2AD6D1EA00E6628A /* NavigationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContentView.swift; sourceTree = "<group>"; };
+		FDF5BA7C2AD6D21200E6628A /* NavigationContentViewScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContentViewScheme.swift; sourceTree = "<group>"; };
+		FDF5BA802AD6D41200E6628A /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF5BA2F2AD6BB9E00E6628A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF5BA4B2AD6BCCD00E6628A /* AdmiralTabsSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF5BA292AD6BB9E00E6628A = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA482AD6BC9D00E6628A /* Packages */,
+				FDF5BA342AD6BB9E00E6628A /* AdmiralUTabsViewer */,
+				FDF5BA332AD6BB9E00E6628A /* Products */,
+				FDF5BA492AD6BCCD00E6628A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF5BA332AD6BB9E00E6628A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA322AD6BB9E00E6628A /* AdmiralUTabsViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF5BA342AD6BB9E00E6628A /* AdmiralUTabsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA7F2AD6D27B00E6628A /* Resources */,
+				FDF5BA4C2AD6CE0F00E6628A /* Presentation */,
+				FDF5BA352AD6BB9E00E6628A /* AdmiralUTabsViewerApp.swift */,
+				FDF5BA392AD6BB9F00E6628A /* Assets.xcassets */,
+				FDF5BA3B2AD6BB9F00E6628A /* Preview Content */,
+			);
+			path = AdmiralUTabsViewer;
+			sourceTree = "<group>";
+		};
+		FDF5BA3B2AD6BB9F00E6628A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA3C2AD6BB9F00E6628A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDF5BA482AD6BC9D00E6628A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA472AD6BC8A00E6628A /* AdmiralTabsSwiftUI */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		FDF5BA492AD6BCCD00E6628A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF5BA4C2AD6CE0F00E6628A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA7E2AD6D22F00E6628A /* Navigation */,
+				FDF5BA532AD6D07700E6628A /* Tabs */,
+				FDF5BA4D2AD6CE1800E6628A /* MainView.swift */,
+				FDF5BA782AD6D1B300E6628A /* SwiftUIContentViewScheme.swift */,
+				FDF5BA4F2AD6CFE600E6628A /* TabsSwiftUIItem.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FDF5BA532AD6D07700E6628A /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA542AD6D07700E6628A /* InformerTabs */,
+				FDF5BA582AD6D07700E6628A /* TabsSwiftUIRowObservable.swift */,
+				FDF5BA592AD6D07700E6628A /* IconTabs */,
+				FDF5BA5B2AD6D07700E6628A /* UnderlineSliderTab */,
+				FDF5BA602AD6D07700E6628A /* OutlineSliderTab */,
+				FDF5BA622AD6D07700E6628A /* Standard */,
+				FDF5BA642AD6D07700E6628A /* Logo */,
+				FDF5BA672AD6D07700E6628A /* TabsSwiftUIRow.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		FDF5BA542AD6D07700E6628A /* InformerTabs */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA552AD6D07700E6628A /* InfoSwiftUIViewScheme.swift */,
+				FDF5BA562AD6D07700E6628A /* InformerTabSwiftUIView.swift */,
+				FDF5BA572AD6D07700E6628A /* InfoSwiftUIView.swift */,
+			);
+			path = InformerTabs;
+			sourceTree = "<group>";
+		};
+		FDF5BA592AD6D07700E6628A /* IconTabs */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA5A2AD6D07700E6628A /* IconTabs.swift */,
+			);
+			path = IconTabs;
+			sourceTree = "<group>";
+		};
+		FDF5BA5B2AD6D07700E6628A /* UnderlineSliderTab */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA5C2AD6D07700E6628A /* UnderlineSliderTabSwiftUIView.swift */,
+				FDF5BA5D2AD6D07700E6628A /* UnderlineCenterTabsSwiftUIView.swift */,
+				FDF5BA5E2AD6D07700E6628A /* UnderlineTabsUIView.swift */,
+				FDF5BA5F2AD6D07700E6628A /* UnderlineTabsSwiftUIItem.swift */,
+			);
+			path = UnderlineSliderTab;
+			sourceTree = "<group>";
+		};
+		FDF5BA602AD6D07700E6628A /* OutlineSliderTab */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA612AD6D07700E6628A /* OutlineSliderTabSwiftUITab.swift */,
+			);
+			path = OutlineSliderTab;
+			sourceTree = "<group>";
+		};
+		FDF5BA622AD6D07700E6628A /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA632AD6D07700E6628A /* StandardTabSwiftUIView.swift */,
+			);
+			path = Standard;
+			sourceTree = "<group>";
+		};
+		FDF5BA642AD6D07700E6628A /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA652AD6D07700E6628A /* LogoTabSwiftUIView.swift */,
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		FDF5BA7E2AD6D22F00E6628A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA7C2AD6D21200E6628A /* NavigationContentViewScheme.swift */,
+				FDF5BA7A2AD6D1EA00E6628A /* NavigationContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FDF5BA7F2AD6D27B00E6628A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5BA802AD6D41200E6628A /* Assets.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF5BA312AD6BB9E00E6628A /* AdmiralUTabsViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF5BA402AD6BB9F00E6628A /* Build configuration list for PBXNativeTarget "AdmiralUTabsViewer" */;
+			buildPhases = (
+				FDF5BA2E2AD6BB9E00E6628A /* Sources */,
+				FDF5BA2F2AD6BB9E00E6628A /* Frameworks */,
+				FDF5BA302AD6BB9E00E6628A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdmiralUTabsViewer;
+			packageProductDependencies = (
+				FDF5BA4A2AD6BCCD00E6628A /* AdmiralTabsSwiftUI */,
+			);
+			productName = AdmiralUTabsViewer;
+			productReference = FDF5BA322AD6BB9E00E6628A /* AdmiralUTabsViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF5BA2A2AD6BB9E00E6628A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FDF5BA312AD6BB9E00E6628A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FDF5BA2D2AD6BB9E00E6628A /* Build configuration list for PBXProject "AdmiralUTabsViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF5BA292AD6BB9E00E6628A;
+			packageReferences = (
+			);
+			productRefGroup = FDF5BA332AD6BB9E00E6628A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF5BA312AD6BB9E00E6628A /* AdmiralUTabsViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF5BA302AD6BB9E00E6628A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF5BA3D2AD6BB9F00E6628A /* Preview Assets.xcassets in Resources */,
+				FDF5BA3A2AD6BB9F00E6628A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF5BA2E2AD6BB9E00E6628A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF5BA7B2AD6D1EA00E6628A /* NavigationContentView.swift in Sources */,
+				FDF5BA4E2AD6CE1800E6628A /* MainView.swift in Sources */,
+				FDF5BA732AD6D07700E6628A /* StandardTabSwiftUIView.swift in Sources */,
+				FDF5BA762AD6D07700E6628A /* TabsSwiftUIRow.swift in Sources */,
+				FDF5BA792AD6D1B300E6628A /* SwiftUIContentViewScheme.swift in Sources */,
+				FDF5BA692AD6D07700E6628A /* InfoSwiftUIViewScheme.swift in Sources */,
+				FDF5BA362AD6BB9E00E6628A /* AdmiralUTabsViewerApp.swift in Sources */,
+				FDF5BA502AD6CFE600E6628A /* TabsSwiftUIItem.swift in Sources */,
+				FDF5BA6D2AD6D07700E6628A /* IconTabs.swift in Sources */,
+				FDF5BA722AD6D07700E6628A /* OutlineSliderTabSwiftUITab.swift in Sources */,
+				FDF5BA702AD6D07700E6628A /* UnderlineTabsUIView.swift in Sources */,
+				FDF5BA6C2AD6D07700E6628A /* TabsSwiftUIRowObservable.swift in Sources */,
+				FDF5BA712AD6D07700E6628A /* UnderlineTabsSwiftUIItem.swift in Sources */,
+				FDF5BA6E2AD6D07700E6628A /* UnderlineSliderTabSwiftUIView.swift in Sources */,
+				FDF5BA6B2AD6D07700E6628A /* InfoSwiftUIView.swift in Sources */,
+				FDF5BA7D2AD6D21200E6628A /* NavigationContentViewScheme.swift in Sources */,
+				FDF5BA742AD6D07700E6628A /* LogoTabSwiftUIView.swift in Sources */,
+				FDF5BA6F2AD6D07700E6628A /* UnderlineCenterTabsSwiftUIView.swift in Sources */,
+				FDF5BA812AD6D41200E6628A /* Assets.swift in Sources */,
+				FDF5BA6A2AD6D07700E6628A /* InformerTabSwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDF5BA3E2AD6BB9F00E6628A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDF5BA3F2AD6BB9F00E6628A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF5BA412AD6BB9F00E6628A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralUTabsViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AdmiralUITabsViewer.com.ru.AdmiralUTabsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF5BA422AD6BB9F00E6628A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralUTabsViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AdmiralUITabsViewer.com.ru.AdmiralUTabsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF5BA2D2AD6BB9E00E6628A /* Build configuration list for PBXProject "AdmiralUTabsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF5BA3E2AD6BB9F00E6628A /* Debug */,
+				FDF5BA3F2AD6BB9F00E6628A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF5BA402AD6BB9F00E6628A /* Build configuration list for PBXNativeTarget "AdmiralUTabsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF5BA412AD6BB9F00E6628A /* Debug */,
+				FDF5BA422AD6BB9F00E6628A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDF5BA4A2AD6BCCD00E6628A /* AdmiralTabsSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdmiralTabsSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FDF5BA2A2AD6BB9E00E6628A /* Project object */;
+}
